@@ -1,0 +1,179 @@
+Instruksi Submission
+
+Submission
+
+Proyek Pengembangan Machine Learning Pipeline
+
+Pengantar Kriteria Penilaian Lainnya
+Selamat! Akhirnya Anda telah sampai di Proyek Pertama dari kelas ini. Sejauh ini, Anda sudah mengenal machine learning pipeline. Selain itu, Anda juga sudah mengikuti latihan pembuatan machine learning pipeline menggunakan TensorFlow Extended (TFX).
+
+Untuk mengasah sekaligus memvalidasi kemampuan, Anda harus mengerjakan tugas, yakni mengembangkan machine learning pipeline sederhana menggunakan TFX sesuai kriteria yang akan disampaikan nanti. Pada proyek ini, Anda diberi kebebasan dalam memilih dataset yang akan digunakan untuk melatih model machine learning.
+
+Selanjutnya, Tim Reviewer akan memeriksa dan memberikan review terhadap proyek yang sudah Anda buat. Untuk melihat apa saja kriteria pada proyek pertama ini, perhatikan uraian di bawah ini.
+
+Instruksi Submission
+
+Submission
+
+Proyek Pengembangan Machine Learning Pipeline
+
+Pengantar Kriteria Penilaian Lainnya
+Terdapat 2 kriteria utama yang harus Anda penuhi dalam mengerjakan proyek pertama ini
+
+
+Kriteria 1: Menggunakan TensorFlow Extended (TFX) untuk Membuat Machine Learning Pipeline
+Mirip seperti materi latihan sebelumnya, Anda harus membuat machine learning pipeline sederhana menggunakan TensorFlow Extended (TFX). Machine learning pipeline yang Anda buat harus memuat seluruh komponen yang dibutuhkan seperti berikut.
+
+ExampleGen
+
+StatisticGen
+
+SchemaGen
+
+ExampleValidator
+
+Transform
+
+Trainer
+
+Resolver
+
+Evaluator
+
+Pusher
+
+Seluruh komponen di atas harus dijalankan menggunakan InteractiveContext dan disimpan dalam sebuah folder bernama  <username_dicoding>-pipeline.
+
+
+
+Kriteria 2: Melampirkan Dokumentasi Proyek 
+Pada proyek ini, Anda menggunakan text cell pada notebook (.ipynb) untuk menjelaskan setiap tahapan proyek dan berkas Markdown untuk menjelaskan proyek secara keseluruhan. Berikut merupakan beberapa informasi yang harus ada dalam dokumentasi yang Anda buat.
+
+Informasi terkait dataset yang digunakan.
+
+Informasi tentang persoalan yang ingin diselesaikan.
+
+Penjelasan terkait solusi machine learning yang akan dibuat beserta target yang ingin dicapai.
+
+Penjelasan tentang metode pengolahan data, arsitektur model yang digunakan, dan metrik untuk mengevaluasi performa model.
+
+Informasi terkait performa model machine learning yang telah dibuat.
+
+Berikut merupakan template dokumentasi yang dapat Anda gunakan: format-dokumentasi-1 ( https://github.com/dicodingacademy/assets/blob/main/ml-mlops/submission-1/format-dokumentasi.md ).
+
+
+Instruksi Submission
+
+Submission
+
+Proyek Pengembangan Machine Learning Pipeline
+
+Pengantar Kriteria Penilaian Lainnya
+Submission Anda akan dinilai oleh Reviewer guna menentukan kebenaran submission yang dikerjakan. Supaya bisa lulus dari kelas ini, proyek Anda mesti memenuhi seluruh kriteria yang ada. Apabila ada ketentuan dalam kriteria yang belum terpenuhi, proyek Anda akan kami tolak.
+
+Submission Anda akan dinilai oleh Reviewer dengan penilaian bintang berskala 1-5. Untuk mendapatkan nilai tinggi, Anda bisa menerapkan beberapa saran berikut:
+
+Memanfaatkan komponen Tuner untuk menjalankan proses hyperparameter tuning secara otomatis.
+
+Menambahkan tahapan model deployment dengan TensorFlow Serving.
+
+Menambahkan sebuah berkas notebook untuk menguji dan melakukan prediction request ke model serving yang telah dibuat.
+
+Berikut adalah detail penilaian submission:
+
+rating-default-1
+semua ketentuan wajib terpenuhi, tetapi terdapat indikasi kecurangan atau plagiasi dalam mengerjakan submission.
+
+rating-default-2
+semua ketentuan wajib terpenuhi, tetapi tidak menerapkan saran sama sekali.
+
+rating-default-3
+semua ketentuan wajib terpenuhi dan menerapkan minimal 1 saran di atas.
+
+rating-default-4
+semua ketentuan wajib terpenuhi dan menerapkan minimal 2 saran di atas.
+
+rating-default-5
+semua ketentuan wajib terpenuhi dan menerapkan semua saran di atas.
+
+Catatan: Jika submission Anda ditolak maka tidak ada penilaian. Kriteria penilaian bintang di atas hanya berlaku jika submission Anda lulus.
+
+Instruksi Submission
+
+Submission
+
+Proyek Pengembangan Machine Learning Pipeline
+
+Pengantar Kriteria Penilaian Lainnya
+Tips
+Berikut adalah beberapa tips yang perlu Anda perhatikan:
+
+Pastikan Anda menyiapkan virtual environment baru yang berbeda dengan proyek lainnya dan menggunakan TFX dengan versi yang sama seperti yang digunakan ketika latihan membuat machine learning pipeline. Hal ini dilakukan untuk menghindari adanya masalah terkait dependency tools atau library yang digunakan.
+
+Apabila menemukan error message seperti “FileNotFoundError: [WinError 206] The filename or extension is too long:...”, Anda dapat mengubahnya menggunakan instruksi pada tautan berikut: Enable Long Paths in Windows 10 (https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry#:~:text=to%20interpret%20properly.-,Enable%20Long%20Paths%20in%20Windows%2010%2C%20Version%201607%2C%20and%20Later,-Starting%20in%20Windows ) .
+
+  
+
+Ketentuan Pengiriman Submission
+Berikut merupakan beberapa poin yang perlu diperhatikan ketika mengirimkan submission.
+
+Berkas submission yang dikirim merupakan folder proyek pengembangan machine learning pipeline sederhana menggunakan TFX dan dikirim dalam bentuk ZIP. Ia mengandung beberapa berkas seperti berikut. 
+
+Sebuah direktori yang memuat seluruh komponen machine learning pipeline dengan nama <username_dicoding>-pipeline.
+
+File Jupyter Notebook (.ipynb). Pastikan file jupyter notebook sudah dijalankan ya.
+
+File Python (.py)
+
+Berkas requirements.txt.
+
+Berkas Markdown (.md).
+
+Jika Anda menerapkan saran kedua, lampirkan juga berkas Dockerfile dan screenshot seperti berikut.
+
+dos:53d6e222f6ba54439b19e4d29445268c20221003112239.jpeg
+
+Apabila Anda menerapkan saran ketiga, lampirkan juga berkas notebook yang digunakan untuk menguji dan melakukan prediction request ke model serving yang telah dibuat. Berkas notebook ini harus bernama <username_dicoding>-testing.ipynb.
+
+
+
+Format Berkas Submission
+Berkas submission yang dikirimkan merupakan sebuah folder yang disimpan dalam bentuk ZIP. Folder berisi beberapa berkas seperti berikut.
+
+Direktori yang memuat komponen machine learning pipeline.
+
+Berkas Jupyter Notebook (.ipynb), module transform (.py), module trainer (.py), dan Markdown (.md).
+
+Direktori yang berisi serving model.
+
+Berkas requirements.txt.
+
+Pastikan Anda tidak melakukan ZIP dalam ZIP.
+
+
+
+Submission Anda akan Ditolak bila
+Kriteria wajib tidak terpenuhi.
+
+Ketentuan berkas submission tidak terpenuhi.
+
+Melakukan kecurangan seperti tindakan plagiarisme.
+
+
+Forum Diskusi
+Jika mengalami kesulitan, Anda bisa menanyakan langsung ke forum diskusi https://www.dicoding.com/academies/443/discussions. 
+
+ 
+
+Ketentuan Proses Review
+Beberapa hal yang perlu Anda ketahui mengenai proses review:
+
+Tim Reviewer akan mengulas submission Anda dalam waktu selambatnya 3 (tiga) hari kerja (tidak termasuk Sabtu, Minggu, dan hari libur nasional).
+
+Tidak disarankan untuk melakukan submit berkali-kali karena akan memperlama proses penilaian.
+
+Anda akan mendapatkan notifikasi hasil review submission via email. Status submission juga bisa dilihat dengan mengecek di halaman submission
+
+
+.
+
